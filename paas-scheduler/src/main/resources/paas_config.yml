@@ -1,0 +1,31 @@
+
+
+loadBalancerUri: http://localhost:8090/baragon/v2/request
+
+
+mesos:
+  master: zk://localhost:2181/mesos
+  defaultCpus: 1
+  defaultMemory: 128
+  frameworkName: pscheduler
+  frameworkId: pscheduler
+  frameworkFailoverTimeout: 1000000
+
+zookeeper:
+  quorum: 172.17.2.161:2181
+  zkNamespace: pscheduler
+  sessionTimeoutMillis: 60000
+  connectTimeoutMillis: 5000
+  retryBaseSleepTimeMilliseconds: 1000
+  retryMaxTries: 3
+
+
+ldap:
+  server: LDAP://localhost
+  paths:
+    - OU=全真教（研发中心）,OU=总公司,DC=corp,DC=ppd,DC=com
+    - OU=道教（新客业务）,OU=总公司,DC=corp,DC=ppd,DC=com
+
+ui:
+  title: Galaxy-Scheduler
+  baseUrl: http://localhost:8089/index.html 
