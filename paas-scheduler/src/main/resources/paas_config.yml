@@ -12,7 +12,7 @@ mesos:
   frameworkFailoverTimeout: 1000000
 
 zookeeper:
-  quorum: 172.17.2.161:2181
+  quorum: localhost:2181
   zkNamespace: pscheduler
   sessionTimeoutMillis: 60000
   connectTimeoutMillis: 5000
