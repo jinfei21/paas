@@ -23,8 +23,8 @@ zookeeper:
 ldap:
   server: LDAP://localhost
   paths:
-    - OU=全真教（研发中心）,OU=总公司,DC=corp,DC=ppd,DC=com
-    - OU=道教（新客业务）,OU=总公司,DC=corp,DC=ppd,DC=com
+    - OU=全真教（研发中心）,OU=总公司,DC=corp,DC=com
+    - OU=道教（新客业务）,OU=总公司,DC=corp,DC=com
 
 ui:
   title: Galaxy-Scheduler
