@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<parent>
-		<groupId>com.ppdai.paas</groupId>
+		<groupId>com.yjfei.paas</groupId>
 		<artifactId>paas</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
@@ -12,12 +12,12 @@
 	<artifactId>paas-scheduler</artifactId>
 
 	<name>pscheduler</name>
-	<description>Ppaidai's PaaS platform for microservices</description>
+	<description>jinfei's PaaS platform for microservices</description>
 
 
 	<dependencies>
 		<dependency>
-			<groupId>com.ppdai.paas</groupId>
+			<groupId>com.yjfei.paas</groupId>
 			<artifactId>paas-common</artifactId>
 		</dependency>
 		<dependency>
@@ -125,12 +125,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>ppdai-Releases</id>
+			<id>jinfei-Releases</id>
 			<name>Internal Releases</name>
 			<url>http://maven.repo.jinfei.com/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
-			<id>ppdai-Snapshots</id>
+			<id>jinfei-Snapshots</id>
 			<name>Internal Snapshots</name>
 			<url>http://maven.repo.jinfei.com/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
