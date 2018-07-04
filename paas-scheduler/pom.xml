@@ -127,12 +127,12 @@
 		<repository>
 			<id>ppdai-Releases</id>
 			<name>Internal Releases</name>
-			<url>http://maven.repo.ppdai.com/nexus/content/repositories/releases/</url>
+			<url>http://maven.repo.jinfei.com/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>ppdai-Snapshots</id>
 			<name>Internal Snapshots</name>
-			<url>http://maven.repo.ppdai.com/nexus/content/repositories/snapshots/</url>
+			<url>http://maven.repo.jinfei.com/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
